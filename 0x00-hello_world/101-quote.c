@@ -6,6 +6,9 @@
  */
 int main(void)
 {
-	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",stdout);
+9 | fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",stdout);
+| ^~~~
+| fputs
+cc1: all warnings being treated as error
 return (1);
 }
