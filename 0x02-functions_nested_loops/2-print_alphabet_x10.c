@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - prints 10 times the alphabet.
- *
- * in lowercase
+ * print_alphabet-X10 - Make alphabet x10 times
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(void)
+int main(void)
+
 {
+	print_alphabet_x10();
 	char c;
 	int i = 0;
 
@@ -20,5 +20,6 @@ void print_alphabet_x10(void)
 	}
 	_putchar('\n');
 	i++;
+	return (0);
 	}
 }
