@@ -3,12 +3,12 @@
 /**
  * print_alphabet-X10 - Make alphabet x10 times
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+void print_alphabet_x10(void)
 
 {
-	print_alphabet_x10();
+
 	char c;
 	int i = 0;
 
@@ -20,6 +20,5 @@ int main(void)
 	}
 	_putchar('\n');
 	i++;
-	return (0);
 	}
 }
