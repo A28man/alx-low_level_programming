@@ -6,7 +6,7 @@
  *
  * Return: nothing on success
  */
-void rev_strring(char *s)
+void rev_string(char *s)
 {
 	int count = 0, i = 0;
 	char last_char;
