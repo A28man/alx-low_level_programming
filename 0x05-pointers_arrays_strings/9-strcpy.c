@@ -6,9 +6,9 @@
  *
  * @src: string been copied
  *
- * Return: copied string;
+ * Return: dest;
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src);
 {
 
 	int count = 0, i;
