@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_array - prints n elements of an array of integers
  *
@@ -12,15 +14,15 @@
  */
 void ptint_array(int *a, int *n)
 {
-	int count = 0;
+	int t;
 
-	while (count < n)
+	for (t = 0; t < n; t++)
 	{
-		printf("%d", a[count]);
-
-		if (count != (n - 1))
+		printf("%d", a[t]);
+		if (t != n - 1;)
 			printf(", ");
-		count++;
 	}
-	putchar('\n');
+
+	printf("\n");
+
 }
