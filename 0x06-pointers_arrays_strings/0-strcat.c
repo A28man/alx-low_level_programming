@@ -4,7 +4,7 @@
  * @dest: input value
  * @src: input value
  *
- * Return: de:st
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
