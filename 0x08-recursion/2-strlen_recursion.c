@@ -4,16 +4,13 @@
  *
  * @s: the string to be measured
  *
- * Return: the length of the string
+ * Return: strlen_recursion
  */
 int _strlen_recursion(char *s)
 {
-	int len = 0;
+	if (*s == '\0')
+	return (0);
 
-	if (*s)
-	{
-		len++;
-		len += _strlen_recursion(s + 1);
-	}
-	return (len);
+	else
+	return (1 + _strlen_recursion(s + 1));
 }
